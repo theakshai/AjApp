@@ -1,0 +1,3 @@
+[submodule "AjMusicAdmin"]
+	path = AjMusicAdmin
+	url = https://github.com/theakshai/AjMusicAdmin
