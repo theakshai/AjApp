@@ -1,3 +1,6 @@
 [submodule "AjMusicAdmin"]
 	path = AjMusicAdmin
 	url = https://github.com/theakshai/AjMusicAdmin
+[submodule "AjMusicApi"]
+	path = AjMusicApi
+	url = https://github.com/theakshai/AjMusicAPI
