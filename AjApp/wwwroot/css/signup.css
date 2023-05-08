@@ -1,0 +1,14 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;800&display=swap');
+body{
+    background-color:#262625;
+    font-family: Poppins;
+}
+
+.purple{
+    color:#ad00ff;
+}
+
+.btn-custom{
+    border-radius:5rem;
+    background-color:#ad00ff;
+}
