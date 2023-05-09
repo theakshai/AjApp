@@ -86,3 +86,4 @@ C:\Users\Dell\Desktop\AjApp\AjApp\obj\Debug\net6.0\AjApp.pdb
 C:\Users\Dell\Desktop\AjApp\AjApp\obj\Debug\net6.0\AjApp.genruntimeconfig.cache
 C:\Users\Dell\Desktop\AjApp\AjApp\obj\Debug\net6.0\ref\AjApp.dll
 C:\Users\Dell\Desktop\AjApp\AjApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Dell\Desktop\AjApp\AjApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

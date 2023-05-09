@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BlD/NJ81hxJt4FZ2vjHna0jaq9YaejXsIdbE+lLHTQs=",
+  "Hash": "WEP6MMCLI2m0PrCuSM+HpHFxlrfKZdFfhX4jjQkM2Co=",
   "Source": "AjApp",
   "BasePath": "_content/AjApp",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AjApp.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\css\\ajfy.css",
+      "SourceId": "AjApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\",
+      "BasePath": "_content/AjApp",
+      "RelativePath": "css/ajfy.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\ajfy.css"
+    },
+    {
       "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\css\\index.css",
       "SourceId": "AjApp",
       "SourceType": "Discovered",
@@ -66,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\index.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\css\\playlist.css",
+      "SourceId": "AjApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\",
+      "BasePath": "_content/AjApp",
+      "RelativePath": "css/playlist.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\playlist.css"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\css\\signup.css",
@@ -100,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\dashboard.png",
+      "SourceId": "AjApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\",
+      "BasePath": "_content/AjApp",
+      "RelativePath": "dashboard.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dashboard.png"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\favicon.ico",
@@ -1105,6 +1156,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\likes.png",
+      "SourceId": "AjApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\",
+      "BasePath": "_content/AjApp",
+      "RelativePath": "likes.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\likes.png"
+    },
+    {
       "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\music.png",
       "SourceId": "AjApp",
       "SourceType": "Discovered",
@@ -1120,6 +1188,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\music.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\musictrack.png",
+      "SourceId": "AjApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\",
+      "BasePath": "_content/AjApp",
+      "RelativePath": "musictrack.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\musictrack.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\playlist.png",
+      "SourceId": "AjApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\",
+      "BasePath": "_content/AjApp",
+      "RelativePath": "playlist.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\playlist.png"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\title.png",
@@ -1154,6 +1256,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\TitleWithLogo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\user.png",
+      "SourceId": "AjApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\",
+      "BasePath": "_content/AjApp",
+      "RelativePath": "user.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\user.png"
     },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\WaveForm.png",

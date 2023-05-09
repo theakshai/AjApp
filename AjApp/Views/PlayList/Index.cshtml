@@ -1,0 +1,36 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+    var PlayListData = ViewBag.PlayListData;
+}
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AjApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/playlist.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/AjApp.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+    @if(PlayListData == null)
+    {
+        <p class=" text-center  m-5" style="color:#ad00ff">@ViewBag.NoData :( </p>
+        <p class="text-center " style="color:#ad00ff">Want to Create one?</p>
+        <p class="text-center " style="color:#ad00ff">Let's Create One! Happi Happi Happi</p>
+    }
+    <div class="d-flex flex-column align-items-center">
+    <form asp-action="Index" method="post">
+        <input name="playlistname" style="border-radius:2rem"/>
+        <input type="submit" name="playlistname" class="btn btn-custom btn-sm"/>
+    </form>
+
+    </div>
+</body>
+</html>

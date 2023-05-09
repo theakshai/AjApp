@@ -1,6 +1,8 @@
 using AjApp.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace AjApp
 {
@@ -13,6 +15,26 @@ namespace AjApp
 
 
             // Add services to the container.
+            builder.Services.AddAuthentication
+           (x =>
+           {
+               x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+               x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+               x.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+           }).AddJwtBearer(x =>
+           {
+               x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+               {
+                   ValidIssuer = "https://localhost:7020",
+                   ValidAudience = "https://localhost:7166",
+                   IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("ThisIsAKeyForTestingJWT"!)),
+                   ValidateIssuer = true,
+                   ValidateAudience = true,
+                   ValidateLifetime = true,
+                   ValidateIssuerSigningKey = true,
+               };
+           });
+            builder.Services.AddAuthorization();
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddDbContext<AuthUserContext>(
@@ -34,6 +56,7 @@ namespace AjApp
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

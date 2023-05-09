@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\WaveForm.png"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\css\\ajfy.css",
+      "PackagePath": "staticwebassets\\css\\ajfy.css"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\css\\index.css",
       "PackagePath": "staticwebassets\\css\\index.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\css\\playlist.css",
+      "PackagePath": "staticwebassets\\css\\playlist.css"
     },
     {
       "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\css\\signup.css",
@@ -23,6 +31,10 @@
     {
       "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\dashboard.png",
+      "PackagePath": "staticwebassets\\dashboard.png"
     },
     {
       "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\favicon.ico",
@@ -261,12 +273,28 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\likes.png",
+      "PackagePath": "staticwebassets\\likes.png"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\music.png",
       "PackagePath": "staticwebassets\\music.png"
     },
     {
+      "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\musictrack.png",
+      "PackagePath": "staticwebassets\\musictrack.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\playlist.png",
+      "PackagePath": "staticwebassets\\playlist.png"
+    },
+    {
       "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\title.png",
       "PackagePath": "staticwebassets\\title.png"
+    },
+    {
+      "Id": "C:\\Users\\Dell\\Desktop\\AjApp\\AjApp\\wwwroot\\user.png",
+      "PackagePath": "staticwebassets\\user.png"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AjApp.Microsoft.AspNetCore.StaticWebAssets.props",

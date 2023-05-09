@@ -1,0 +1,54 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;800&display=swap');
+
+body {
+    background-color:#262625;
+    font-family: Poppins;
+}
+
+.navbar-custom{
+    border-radius: 5rem;
+    background-color: black;
+    height:4rem;
+    width:40rem
+}
+
+.search{
+    background-color:#262625;
+    border-radius: 5rem;
+    border-color: #ad00ff;
+    height:2rem;
+    width:20rem
+}
+
+audio::-webkit-media-controls-volume-slider {
+    display: none!important;
+}
+
+audio::-webkit-media-controls-overflow-button {
+    display: none!important;
+}
+
+.data{
+    color:#ad00ff;
+}
+
+.card-custom{
+    width:8rem;
+}
+
+.title{
+    text-overflow: clip;
+}
+.music-card {
+    width: 50rem;
+    height: 4.5rem;
+    border-radius: 0.2rem;
+}
+
+.track-card {
+    background-color: black;
+}
+
+
+
+
